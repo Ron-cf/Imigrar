@@ -1,1 +1,4 @@
 # Imigrar
+Com a crescente demanda global por profissionais qualificados, os jovens adultos recebem propostas de emprego de diversos países. Estas propostas apresentam remunerações em diversos patamares. Levando se em conta que os sistemas de tributação têm regras diferentes nos diversos issional. O processamento dos países, a renda líquida recebida pelo trabalhador passa a ser um elemento de difícil aferição no processo de seleção da melhor oferta de emprego.
+Neste projeto foi desenvolvido um sistema para o cálculo da renda líquida, a partir do fornecimento de dados básicos como: valor do salário bruto e cidade em que será exercida a atividade profdados de entrada ocorre no servidor com um programa utilizando a linguagem python.
+A passagem de dados entre o front-end e o back-end é feita com o uso de flask.
