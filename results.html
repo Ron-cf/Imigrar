@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibindo Resultados</title>
+    <style>
+        /* Estilize o fundo da página */
+        body {
+            background-image: url('compara.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Aumente o tamanho da fonte para o conteúdo exibido */
+        #output {
+            font-size: 21px; /* Tamanho desejado */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <p style="color: black; text-align: center; font-size: 25px;">POLO BRAGANÇA PAULISTA - PROJETO INTEGRADOR III - Turma 002 -  Grupo 19</p>
+
+    <p style="color: rgb(16, 22, 191); text-align: center; font-size: 30px;">RESULTADO DO PROCESSAMENTO</p>
+
+    <pre id="output"></pre>
+
+    <script>
+        var fileToRead = "resultado.txt"; // Nome do arquivo a ser lido
+
+        fetch(fileToRead)
+            .then(response => response.text())
+            .then(text => {
+                var node = document.getElementById('output');
+                node.innerText = text;
+            })
+            .catch(error => console.error("Erro ao ler o arquivo:", error));
+    </script>
+
+<!-- BOTÃO Voltar -->
+<div style="text-align: right;">
+    <input type="submit" value="VOLTAR" style="width: 150px; height: 40px; font-size: 16px; padding: 6px 12px; background-color: blue; color: white; font-family: Arial; font-weight: normal;" onclick="window.history.back()">
+  </div>
+
+</body>
+</html>
