@@ -5,7 +5,8 @@ Com a crescente demanda global por profissionais qualificados, os jovens adultos
 Neste projeto foi desenvolvido um sistema para o cálculo da renda líquida, a partir do fornecimento de dados básicos como: valor do salário bruto e cidade em que será exercida a atividade profdados de entrada ocorre no servidor com um programa utilizando a linguagem python.
 A passagem de dados entre o front-end e o back-end é feita com o uso de flask.
 
-O arquivo p_3.service é o arquivo que permite que a aplicação python rode como um serviço no servidor de aplicação. É utilizado como parâmetro para o comando no systemctl no linux.
+O arquivo p_3.service é o arquivo que permite que a aplicação python rode como um serviço no servidor de aplicação.
+É utilizado como parâmetro para o comando no systemctl no linux.
 Comando para ativar: systemctl start p_3.service
 Comando para verificar: systemctl status p_3.service
 Comando para parar o serviço (Utilizado quando foi feita alguma modificação no arquivo .py): systemctl stop p_3.service
