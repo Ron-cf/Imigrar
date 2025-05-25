@@ -1,0 +1,9 @@
+Cidade 1: Hamburgo - Salário Bruto: € 36000.00
+
+Valor líquido (Anual): R$ 167301.25 / US$ 29341.84 / 25856.40 €
+
+
+
+Cidade 2: Turim - Salário Bruto: € 36000.00
+
+Valor líquido (Anual): R$ 143862.49 / US$ 25231.08 / 22233.94 €
